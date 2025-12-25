@@ -1,16 +1,11 @@
-import java.util.*;
+// User function Template for Java
+class Solution {
+    public static void difference(int n1, int n2) {
 
-public class Solution {
-    public static void main(String args[]) {
-        // Your Code Here
-        Scanner sc=new Scanner(System.in);
-        int n1=sc.nextInt();
-        int n2=sc.nextInt();
-        
-        int res= n2 - n1;
-        
+        // Write your code here
+        int res=n1-n2;
         for(int i=1;i<=10;i++){
-            System.out.print((res * i) +" ");
+            System.out.print(res*i + " ");
         }
     }
 }
