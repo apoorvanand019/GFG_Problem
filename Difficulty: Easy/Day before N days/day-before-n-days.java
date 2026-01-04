@@ -1,7 +1,18 @@
-// User function Template for Java
 class Solution {
-    public static int nthDay(int d, int n) {
-        // write your code here
-        return (d - (n % 7) + 7) % 7;
+    String arr[] = {
+        "Sunday",
+        "Monnday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+    };
+    public int dayBefore(int d, int n) {
+        // code here
+        n= n % 7;
+        int res=(d - n + 7) % 7;
+        
+        return res;
     }
 }
